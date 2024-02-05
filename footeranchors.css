@@ -1,0 +1,12 @@
+
+a:link{
+    color: white;
+}
+#anchor{
+    color: black;
+}
+/* remove underline in links */
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
