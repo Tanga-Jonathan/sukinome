@@ -15,8 +15,8 @@
 
                          &copy;<P>ASWT (U) LTD</P>
     <ul style="list-style: none" class="list-inline ">
-    <li class="list-inline-item"  class="bi bi-facebook" ><a href="#">Home</a></li>
-    <li class="list-inline-item display-7"><a href="#">Contacts</a></li>
+    <li class="list-inline-item"><a href="#">Home</a></li>
+    <li class="list-inline-item"><a href="#">Contacts</a></li>
     <li class="list-inline-item"><a href="#">Products</a></li>
     <li class="list-inline-item"><a href="#">About us</a></li>
     <li class="list-inline-item"><a href="#" >signIn</a></li>
