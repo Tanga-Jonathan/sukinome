@@ -7,8 +7,9 @@
 <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
 
 
-    <title>Document</title>
-</head>
+    <title>Aswt</title>
+    <link rel="shortcut icon" href="Images/A (1).png" type="image/x-icon">
+  </head>
 <body style="background-color: #333;">
      <div class="container-fluid" style="border: 2px solid red;">
      
@@ -16,6 +17,10 @@
             <nav class="navbar navbar-dark bg-dark fixed-top">
                 <div class="container " >
                   <a class="navbar-brand" href="index.html">ASWT INDUSTRIES (U) LTD</a>
+                  <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search" style="width: 300px;">
+                        <button class="btn btn-success" type="submit">Search</button>
+                      </form>
                   <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#labelForCanvas" aria-controls="labelForCanvas" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -27,25 +32,25 @@
                     <div class="offcanvas-body">
                       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="products.html">Products</a>
+                            <a class="nav-link " aria-current="page" href="productss.php">Products</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="Customer.html">Customers</a>
+                            <a class="nav-link " aria-current="page" href="contactss.php">Contact Us</a>
                           </li>
                           <li class="nav-item">
-                          <a class="nav-link" href="about.html">About us</a>
+                          <a class="nav-link" href="aboutss.php">About us</a>
                         </li>
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Account
                           </a>
                           <ul class="dropdown-menu dropdown-menu-dark">
-                            <li><a class="dropdown-item" href="signIn.html">Sign In</a></li>
-                            <li><a class="dropdown-item" href="signUp.html">Sign Up</a></li>
-                            <li><a class="dropdown-item" href="index.html">Sign out</a></li>
+                            <li><a class="dropdown-item" href="#">Sign In</a></li>
+                            <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
                             <li>
                               <hr class="dropdown-divider">
                             </li>
@@ -62,7 +67,7 @@
                 </div>
               </nav>
     </div>
-    <div class="row">
+    <div class="row" style="padding-top: 1%;">
         <header style="background-color:  orange; padding-top: 4%;">
             <h1 style= "text-align: center;" >ASWT INDUSTRIES UGANDA LIMITED</h1>
             </header>
@@ -89,7 +94,7 @@
                 </div>
               
                 <!-- The slideshow/carousel -->
-                <div class="carousel-inner">
+                <div class="carousel-inner" style="padding-top: 3%;">
                   <div class="carousel-item active">
                     <img src="Images/jerry.jpg" alt="pic1" class="bg-dark d-block w-100 rounded-circle">
                     <div class="carousel-caption"><h3>Good Jerrycans at affordable prices</h3></div>
@@ -132,7 +137,7 @@
         <img src="Images/A (1).png" alt="ad_image" style="width: 50%;">
         </div>    
       
-
+    </div>
      
   
         <div class="row">
@@ -151,6 +156,7 @@
             <div class="card-body"><img src="images_2/pexels-ella-olsson-1640768.jpg" alt="" style="width: 100%;"></div>
             <div class="card-footer" style="color: #fff;">footer3</div>
           </div>
+        </div>
 <div class="row">
           <div class="col-lg-4">
             <div class="card-header" style="color: #fff;">head</div>
@@ -167,6 +173,7 @@
             <div class="card-body"><img src="images_2/pexels-ella-olsson-1640768.jpg" alt="" style="width: 100%;"></div>
             <div class="card-footer" style="color: #fff;">footer3</div>
           </div>
+</div>
 <div class="row">
           <div class="col-lg-4">
             <div class="card-header" style="color: #fff;">head</div>
@@ -187,21 +194,21 @@
 
 
 
+        </div>
 
+        <footer style="background-color: orange; padding-top: 100px; text-align: center;" > 
+                <p><em>Email us: jonathantanga97@gmail.com</em></p>      
 
- <footer style="background-color: orange; padding-top: 100px; text-align: center;" > 
-        <p><em>Email us: jonathantanga97@gmail.com</em></p>      
-
-        &copy;<P>ASWT (U) LTD</P>
-              <ul style="list-style: none" class="list-inline ">
-                    <li class="list-inline-item"  class="bi bi-facebook" ><a href="#">Home</a></li>
-                    <li class="list-inline-item display-7"><a href="#">Contacts</a></li>
-                    <li class="list-inline-item"><a href="#">Products</a></li>
-                    <li class="list-inline-item"><a href="#">About us</a></li>
-                    <li class="list-inline-item"><a href="#" >signIn</a></li>
-              </ul>
-</footer>
-</div>
+                &copy;<P>ASWT (U) LTD</P>
+                      <ul style="list-style: none" class="list-inline ">
+                            <li class="list-inline-item"  class="bi bi-facebook" ><a href="#">Home</a></li>
+                            <li class="list-inline-item display-7"><a href="#">Contacts</a></li>
+                            <li class="list-inline-item"><a href="#">Products</a></li>
+                            <li class="list-inline-item"><a href="#">About us</a></li>
+                            <li class="list-inline-item"><a href="#" >signIn</a></li>
+                      </ul>
+        </footer>
+      
     <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
