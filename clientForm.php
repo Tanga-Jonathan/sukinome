@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
 
 <link rel="shortcut icon" href="Images/A (1).png" type="image/x-icon">
-    <title>Products</title>
+    <title>ClientsPage</title>
 </head>
 <body style="background-color: #333;">
      <div class="container-fluid" style="border: 2px solid red;">
@@ -77,11 +77,20 @@
         
         </div>
     <div class="col-lg-7" style="border: 2px solid red;">
-      <center>
-      <h3 style="padding-top: 8%; color: #fff;"><u> Products </u> </h3>
-        
-    
-
+        <section >
+          <center>
+            <h1 style="color: #fff; padding-top:10%;">Registration Form</h1>
+            <form  action="" method="post" >
+              
+            <input class="form-control" style="width:70%;" type="text" name="User_Name" placeholder="User Name"><br>
+            <input class="form-control" style="width:70%;" type="text" name="Firstname" placeholder="First Name"><br>
+            <input class="form-control" style="width:70%;" type="text" name="LastName" placeholder="Last Name"><br>
+            <input class="form-control" style="width:70%;"  type="password" name="password" placeholder="password"><br>
+            <input class="form-control" style="width:70%;"  type="password" name="password" placeholder="Repeat password"><br>
+            <button type="button" class="btn btn-primary">Submit</button>
+            </form>
+        </center>
+        </section>
     </div>
     <div class="col-lg-2" style="border: 2px solid red;">
         <h3 style="color: #fff; padding-top:30%;">ADS</h3>
@@ -152,11 +161,11 @@
 
                 &copy;<P>ASWT (U) LTD</P>
                       <ul style="list-style: none" class="list-inline ">
-                            <li class="list-inline-item"><a href="#">Home</a></li>
-                            <li class="list-inline-item"><a href="#">Contacts</a></li>
+                            <li class="list-inline-item"  class="bi bi-facebook" ><a href="#">Home</a></li>
+                            <li class="list-inline-item display-7"><a href="#">Contacts</a></li>
                             <li class="list-inline-item"><a href="#">Products</a></li>
                             <li class="list-inline-item"><a href="#">About us</a></li>
-                            <li class="list-inline-item"><a href="#">signIn</a></li>
+                            <li class="list-inline-item"><a href="#" >signIn</a></li>
                       </ul>
         </footer>
       
