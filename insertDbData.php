@@ -3,18 +3,18 @@
 
 require_once 'dbConnection.php';
 
-$query = "INSERT INTO clients (UserName, FirstName, Password) VALUES (?, ?, ?)";
+$query = "INSERT INTO products (Item, Color, Unit Price) VALUES (?, ?, ?)";
 
 $preparedStat = mysqli_prepare($connect, $query);
 if (!$preparedStat){
     die("Prepare failed: ". mysqli_error($connect));
 }
 //bind
-$User = $_POST["UserName"];
-$First = $_POST["FirstName"];
-$pass = $_POST["Password"];
+$Item = $_POST["Item"];
+$Color = $_POST["Color"];
+$Unit = $_POST["Unit Price"];
 
-mysqli_stmt_bind_param($preparedStat,"sss",$pass,$First,$User);
+mysqli_stmt_bind_param($preparedStat,"ssi",$Item,$Color,$Unit);
 
 // execute
 

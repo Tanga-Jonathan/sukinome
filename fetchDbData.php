@@ -28,6 +28,7 @@ if (mysqli_num_rows($result)>0){
 </div>
     <div class="card-body"><p>Nice work</p></div>
     <div class="card-footer"><?php  $row["UserName"];     ?></div>
+    <a href="productForm.php?id=<?php echo $row['Id'];?>">update</a>
 </div>
 <?php
 }
