@@ -88,8 +88,8 @@
             <input class="form-control" style="width:70%;" type="text" name="LastName" placeholder="Last Name"><br>
             <input class="form-control" style="width:70%;"  type="email" name="email" placeholder="Your Email"><br>
             <input class="form-control" style="width:70%;"  type="password" name="password" placeholder="password"><br>
-            <input class="form-control" style="width:70%;"  type="password" name="password" placeholder="Repeat password"><br>
-            <button type="button" class="btn btn-primary" name = "submit">Submit</button>
+            <!-- <input class="form-control" style="width:70%;"  type="password" name="rpassword" placeholder="Repeat password"><br> -->
+            <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </center>
         </section>
