@@ -3,56 +3,32 @@
 
 require_once 'dbConnection.php';
 
-$query = "INSERT INTO products (Item, Color, Unit Price) VALUES (?, ?, ?)";
+$user = $_POST['User_Name'];
+$Fname = $_POST['Firstname'];
+$Lname = $_POST['LastName'];
+$pass = $_POST['password'];
+$rpass = $_POST['password'];
+$mail = $_POST['email'];
 
-$preparedStat = mysqli_prepare($connect, $query);
-if (!$preparedStat){
-    die("Prepare failed: ". mysqli_error($connect));
-}
-//bind
-$Item = $_POST["Item"];
-$Color = $_POST["Color"];
-$Unit = $_POST["Unit Price"];
+$query = "INSERT INTO clients
+(User, First_Name, Last_Name, Password, Re_password,Email)
+ VALUES (?,?,?,?,?,?)";
+$result = mysqli_stsmt_init($connect);
 
-mysqli_stmt_bind_param($preparedStat,"ssi",$Item,$Color,$Unit);
-
-// execute
-
-if(mysqli_stmt_execute($preparedStat)){
-echo "success";
-}
-else{
-    die("execute fail" . mysqli_error($connect));
-}
-// $que = $connect->prepare($query);
-
-
-// // bind statement
-// $val = "Kamajo";
-// $val2 = "Tanga";
-
-// $que->bind_param("ss",$val, $val2);
-
-// //execute statement
-// $que->execute();
-// if ($que->affected_rows > 0){
-//     echo "Record entered";
-// }
-// else{
-//     echo "error " . $que->error;
-// }
-// $que->close();
-// $connect->close();
+$result = mysqli_prepare($connect,$query);
 
 
 
-
-?>
-
-
-
-
-
-
+mysqli_stmt_bind_param($result, 'ssssss', 
+                        $user, 
+                        $Fname, 
+                        $Lname,
+                        $pass, 
+                        $rpass, 
+                        $mail);
+ 
+mysqli_stmt_execute($result);
+ 
+ mysqli_close($connect);
 
 ?>

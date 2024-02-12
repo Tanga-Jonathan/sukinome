@@ -78,16 +78,18 @@
         </div>
     <div class="col-lg-7" style="border: 2px solid red;">
         <section >
+          
           <center>
             <h1 style="color: #fff; padding-top:10%;">Registration Form</h1>
-            <form  action="" method="post" >
+            <form  action="insertDbData.php" method="post" class="form-group">
               
             <input class="form-control" style="width:70%;" type="text" name="User_Name" placeholder="User Name"><br>
             <input class="form-control" style="width:70%;" type="text" name="Firstname" placeholder="First Name"><br>
             <input class="form-control" style="width:70%;" type="text" name="LastName" placeholder="Last Name"><br>
+            <input class="form-control" style="width:70%;"  type="email" name="email" placeholder="Your Email"><br>
             <input class="form-control" style="width:70%;"  type="password" name="password" placeholder="password"><br>
             <input class="form-control" style="width:70%;"  type="password" name="password" placeholder="Repeat password"><br>
-            <button type="button" class="btn btn-primary">Submit</button>
+            <button type="button" class="btn btn-primary" name = "submit">Submit</button>
             </form>
         </center>
         </section>
