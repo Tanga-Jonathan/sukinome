@@ -147,7 +147,7 @@
 
         </div>
 
-        <footer style="background-color: orange; padding-top: 100px; text-align: center;" > 
+        <footer style="background-color: gold; padding-top: 25px; text-align: center;" > 
                 <p><em>Email us: jonathantanga97@gmail.com</em></p>      
 
                 &copy;<P>ASWT (U) LTD</P>
