@@ -26,6 +26,10 @@ mysqli_stmt_bind_param($stmt, 'sssss',
  
 mysqli_stmt_execute($stmt);
  
+if(stmt){
+    echo "successfull entry";
+}
+
  mysqli_close($connect);
 
 ?>
