@@ -7,10 +7,9 @@ $user = $_POST['User_Name'];
 $Fname = $_POST['Firstname'];
 $Lname = $_POST['LastName'];
 $pass = $_POST['password'];
-
 $mail = $_POST['email'];
-$pic = file_get_contents(['picture']['tmp_name']);
-$picType = $_FILES['Imag']['type'];
+$pic = file_get_contents($_FILES['picture']['tmp_name']);
+$picType = $_FILES['picture']['type'];
 
 $query = "INSERT INTO clients (UserName, First_Name, Last_Name, Pwd, Email, Imag)  VALUES (?,?,?,?,?,?)";
 // $result = mysqli_stsmt_init($connect);
@@ -30,7 +29,7 @@ mysqli_stmt_bind_param($stmt, 'sssssb',
  
 mysqli_stmt_execute($stmt);
  
-if(stmt){
+if($stmt){
     echo "successfull entry";
 }
 
