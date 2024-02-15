@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ASWT</title>
     <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="set.css">
+    <link rel="shortcut icon" href="Images/A (1).png" type="image/x-icon">
 </head>
 <body>
     
-    <div class="container-fluid" style="border: 2px solid blue;     background-color: rgba(0,0,0,0.7);">
+    <div class="container-fluid" style="background-color: rgba(0,0,0,0.7);">
         <video src="vid/bgvideo.mp4" autoplay loop muted type="mp4" class="background-clip" style="position: fixed;top: 0;left: 0;width: 100vw;height: 100vh;object-fit:cover;z-index: -1;">
         </video>
 
         <div class="row">
             <nav class="navbar navbar-dark bg-dark fixed-top">
-                <div class="container" style="border: 2px solid blue;" >
+                <div class="container">
                     <img src="Images/A (1).png" alt="" style="width: 5%;" class="rounded-circle">
                   <a class="navbar-brand" href="index.html" style="margin-right: 50px;">ASWT INDUSTRIES (U) LTD</a>
                   <form class="d-flex mt-3" role="search">
@@ -73,7 +74,7 @@
 
 
 
-        <img id="imge" src="Images/New folder (2)/A (1).png" class="rounded-circle" style="width: 20%; margin-top: 100px;" alt="">
+        <img id="imge" src="Images/A (1).png" class="rounded-circle" style="width: 20%; margin-top: 100px;" alt="">
         <h1 style="color: #fff;"> <span class="display-1"><strong>NUMBER <span style="color: red;"> 1</span> PRODUCERS OF PLASTICS.</strong></span> </h1>
         <h1 style="color: #fff; margin-top: 60px;">Both <span>Household</span> and <span>Industrial</span></h1>
         <button class="btn btn-success btn-lg" id="bt"><a href="contactss.php" class="text-light">Make Your Orders Now</a></button><br>
@@ -86,14 +87,17 @@
         
         
     
-    
+    <div class="container">
         
 
 
-        <h3 style="color: #fff; margin-top: 5%;" >Don't waist time on Jars that have no certification from UNBS, they create many challenges in the packaging and presentation of your products.</h3>
+        <h3 style="color: #fff; margin-top: 5%; margin-bottom: 5%;" >
+            Don't waist time on Jars that have no certification from UNBS, they create many challenges in the packaging and presentation of your products.
+            Just make the right choice for the best.
+        </h3>
 
 
-
+        </div>
 
 
 
@@ -198,7 +202,7 @@
                               </div>
                               <div class="carousel-item">
                                 <div class="card  bg-warning ">
-                                  <div class="card-header"><img src="/Images/10.jpg" alt="" style="width: 100%;" class="rounded-circle"></div>
+                                  <div class="card-header"><img src="Images/10.jpg" alt="" style="width: 100%;" class="rounded-circle"></div>
                                   <div class="card-body" style="text-align: center;">My products have been delievered always on time</div>
                                   <div class="card-footer" style="text-align: center;">Clif kibalama</div>
                               </div>
@@ -273,7 +277,7 @@
         
 
 
-        <div class="container" style="border: 2px solid red;">
+        <div class="container">
             <h3 style="margin-top: 5%; color: #fff;">Most Asked Questions.</h3>
             <div class="accordion" id="accordionExample" >
                <div class="accordion-item">
@@ -320,6 +324,7 @@
 
 
 
+           <button class="btn btn-success btn-lg" id="bt"><a href="contactss.php" class="text-light">Make Your Orders Now</a></button><br>
     
 
 </div>

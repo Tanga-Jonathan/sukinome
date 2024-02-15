@@ -26,6 +26,27 @@
 
 </footer>
 
+
+
+<!-- sample of card items -->
+<div class="row">
+          <div class="col-lg-4">
+            <div class="card-header" style="color: #fff;">head</div>
+            <div class="card-body"><img src="images_2/pexels-ella-olsson-1640768.jpg" alt="" style="width: 100%;"></div>
+            <div class="card-footer" style="color: #fff;">footer</div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-header" style="color: #fff;">head2</div>
+            <div class="card-body"><img src="images_2/pexels-pixabay-269264.jpg" alt="" style="width: 100%;"></div>
+            <div class="card-footer" style="color: #fff;">foooter2</div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-header " style="color: #fff;">head3</div>
+            <div class="card-body"><img src="images_2/pexels-ella-olsson-1640768.jpg" alt="" style="width: 100%;"></div>
+            <div class="card-footer" style="color: #fff;">footer3</div>
+          </div>
+        </div>
+
 <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
