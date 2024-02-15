@@ -70,7 +70,42 @@
     
      
     <div class="row" >
-        <div class="col-lg-3" style="background-color: rgb(161, 158, 156);">
+        <div class="col-lg-3" 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        ''''>
         <p style="color: #fff; padding-top:20%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga assumenda explicabo atque saepe labore quod repellendus optio qui neque cumque odit ipsam vero, sequi impedit dignissimos suscipit, pariatur est velit officiis illo, fugiat in quos! Ut in earum, ipsum commodi nobis vero temporibus. Earum exercitationem est, ea minus voluptatum tenetur?</p>
         <p style="color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga assumenda explicabo atque saepe labore quod repellendus optio qui neque cumque odit ipsam vero, sequi impedit dignissimos suscipit, pariatur est velit officiis illo, fugiat in quos! Ut in earum, ipsum commodi nobis vero temporibus. Earum exercitationem est, ea minus voluptatum tenetur?</p>
         <p style="color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga assumenda explicabo atque saepe labore quod repellendus optio qui neque cumque odit ipsam vero, sequi impedit dignissimos suscipit, pariatur est velit officiis illo, fugiat in quos! Ut in earum, ipsum commodi nobis vero temporibus. Earum exercitationem est, ea minus voluptatum tenetur?</p>

@@ -8,26 +8,27 @@ $Fname = $_POST['Firstname'];
 $Lname = $_POST['LastName'];
 $pass = $_POST['password'];
 $mail = $_POST['email'];
-$pic = file_get_contents($_FILES['picture']['tmp_name']);
-$picType = $_FILES['picture']['type'];
+// $pic = file_get_contents($_FILES['picture']['tmp_name']);
+// $picType = $_FILES['picture']['type'];
 
-$query = "INSERT INTO clients (UserName, First_Name, Last_Name, Pwd, Email, Imag)  VALUES (?,?,?,?,?,?)";
+$query = "INSERT INTO clients (UserName, First_Name, Last_Name, Pwd, Email)  VALUES (?,?,?,?,?)";
 // $result = mysqli_stsmt_init($connect);
 
 $stmt = mysqli_prepare($connect,$query);
 
 
 
-mysqli_stmt_bind_param($stmt, 'sssssb', 
+mysqli_stmt_bind_param($stmt, 'sssss', 
                         $user, 
                         $Fname, 
                         $Lname,
                         $pass, 
-                        $mail,
-                        $pic);
+                        $mail
+                       
                         
- 
+);
 mysqli_stmt_execute($stmt);
+
  
 if($stmt){
     echo "successfull entry";
