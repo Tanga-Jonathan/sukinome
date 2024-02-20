@@ -50,7 +50,7 @@
                           </a>
                           <ul class="dropdown-menu dropdown-menu-dark">
                             <li><a class="dropdown-item" href="#">Sign In</a></li>
-                            <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                            <li><a class="dropdown-item" href="clientForm.php">Sign Up</a></li>
                             <li><a class="dropdown-item" href="#">Sign out</a></li>
                             <li>
                               <hr class="dropdown-divider">

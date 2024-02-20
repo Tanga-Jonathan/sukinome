@@ -10,8 +10,9 @@
     <title>About Us</title>
 </head>
 <body style="background-color: #b3821a;">
-     <div class="container-fluid" >
-     
+     <div class="container-fluid" style="background-color: rgba(0,0,0,0.7);" >
+     <video src="vid/bgvideo.mp4" autoplay loop muted type="mp4" class="background-clip" style="position: fixed;top: 0;left: 0;width: 100vw;height: 100vh;object-fit:cover;z-index: -1;">
+        </video>
         <div class="row">
             <nav class="navbar navbar-dark bg-dark fixed-top">
                 <div class="container " >

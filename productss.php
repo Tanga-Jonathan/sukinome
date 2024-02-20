@@ -10,8 +10,9 @@
     <title>Products</title>
 </head>
 <body style="background-color: #b3821a;">
-     <div class="container-fluid">
-     
+     <div class="container-fluid" style="background-color: rgba(0,0,0,0.7);">
+     <video src="vid/bgvideo.mp4" autoplay loop muted type="mp4" class="background-clip" style="position: fixed;top: 0;left: 0;width: 100vw;height: 100vh;object-fit:cover;z-index: -1;">
+        </video>
         <div class="row">
             <nav class="navbar navbar-dark bg-dark fixed-top">
                 <div class="container " >
@@ -44,12 +45,12 @@
                           <a class="nav-link" href="aboutss.php">About us</a>
                         </li>
                         <li class="nav-item dropdown">
-                          <!-- <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Account
                           </a>
                           <ul class="dropdown-menu dropdown-menu-dark">
                             <li><a class="dropdown-item" href="#">Sign In</a></li>
-                            <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                            <li><a class="dropdown-item" href="clientForm.php">Sign Up</a></li>
                             <li><a class="dropdown-item" href="#">Sign out</a></li>
                             <li>
                               <hr class="dropdown-divider">
@@ -57,7 +58,7 @@
                             <li><a class="dropdown-item" href="#">Contacts</a></li>
                           </ul>
                         </li>
-                      </ul> -->
+                      </ul>
                       <form class="d-flex mt-3" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search">
                         <button class="btn btn-success" type="submit">Search</button>
