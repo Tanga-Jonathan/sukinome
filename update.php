@@ -10,9 +10,11 @@
     <title>ClientsPage</title>
 </head>
 <body style="background-color: #333;">
-     <div class="container-fluid" style="border: 2px solid red;">
+     <div class="container-fluid" style="background-color: rgba(0,0,0,0.7);">
+     <video src="vid/bgvideo.mp4" autoplay loop muted type="mp4" class="background-clip" style="position: fixed;top: 0;left: 0;width: 100vw;height: 100vh;object-fit:cover;z-index: -1;">
+        </video>
      
-        <div class="row" style="border: 2px solid red;">
+        <div class="row" >
             <nav class="navbar navbar-dark bg-dark fixed-top">
                 <div class="container " >
                   <a class="navbar-brand" href="index.html">ASWT INDUSTRIES (U) LTD</a>
@@ -69,14 +71,14 @@
     </div>
     
      
-    <div class="row" style="border: 2px solid red;">
-        <div class="col-lg-3" style="border: 2px solid red;">
+    <div class="row">
+        <div class="col-lg-3">
         <p style="color: #fff; padding-top:20%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga assumenda explicabo atque saepe labore quod repellendus optio qui neque cumque odit ipsam vero, sequi impedit dignissimos suscipit, pariatur est velit officiis illo, fugiat in quos! Ut in earum, ipsum commodi nobis vero temporibus. Earum exercitationem est, ea minus voluptatum tenetur?</p>
         <p style="color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga assumenda explicabo atque saepe labore quod repellendus optio qui neque cumque odit ipsam vero, sequi impedit dignissimos suscipit, pariatur est velit officiis illo, fugiat in quos! Ut in earum, ipsum commodi nobis vero temporibus. Earum exercitationem est, ea minus voluptatum tenetur?</p>
         <p style="color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga assumenda explicabo atque saepe labore quod repellendus optio qui neque cumque odit ipsam vero, sequi impedit dignissimos suscipit, pariatur est velit officiis illo, fugiat in quos! Ut in earum, ipsum commodi nobis vero temporibus. Earum exercitationem est, ea minus voluptatum tenetur?</p>
         
         </div>
-    <div class="col-lg-7" style="border: 2px solid red;">
+    <div class="col-lg-7" >
         <section >
           
           <center>
@@ -94,7 +96,7 @@
         </center>
         </section>
     </div>
-    <div class="col-lg-2" style="border: 2px solid red;">
+    <div class="col-lg-2" >
         <h3 style="color: #fff; padding-top:30%;">ADS</h3>
         <img src="Images/A (1).png" alt="ad_image" style="width: 50%;">
         </div>    
