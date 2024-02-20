@@ -28,9 +28,9 @@ if($result){
   
 
     
- echo '<div class="container">';
+ echo '<div class="container">
 
-echo '
+
     <table class="table table-hover">
     <tr>
     <th scope = "$row" >'.$id.' </th>
@@ -54,14 +54,45 @@ echo '
   }
 }
 
-echo '</div>';
+
 
 
 
 ?>
+<?php
 
-
-
+echo "
+<table class='table'>
+  <thead>
+    <tr>
+      <th scope='col'>".$id."</th>
+      <th scope='col'>User Name</th>
+      <th scope='col'>First Name</th>
+      <th scope='col'>Last Name</th>
+      <th scope='col'>Password</th>
+      <th scope='col'>Email</th>
+      <th scope='col'>Operation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope='row'>".$id."</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope='col'>".$id."</th>
+      <th scope='col'>".$Uname."</th>
+      <th scope='col'>".$Fname."</th>
+      <th scope='col'>".$Lname."</th>
+      <th scope='col'>".$pass."</th>
+      <th scope='col'>".$mail."</th>
+      <th scope='col'>Operation</th>
+    </tr>
+  </tbody>
+</table>";
+?>
 
 <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
